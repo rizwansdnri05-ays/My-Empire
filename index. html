@@ -1,1 +1,28 @@
-<img src="shirt.jpg">
+<!DOCTYPE html>
+<html>
+<head>
+<title>Khan's Prince</title>
+<style>
+body {
+  background:black;
+  color:white;
+  font-family:Arial;
+}
+.product {
+  margin:20px;
+}
+</style>
+</head>
+
+<body>
+
+<h1>Khan's Prince</h1>
+
+<div class="product">
+  <img src="shirt.jpg" width="150">
+  <h3>Shirt</h3>
+  <p>₹999</p>
+</div>
+
+</body>
+</html>
