@@ -1,28 +1,94 @@
-<!DOCTYPE html>
-<html>
+
+<!DOCTYPE html><html lang="en">
 <head>
-<title>Khan's Prince</title>
-<style>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Khan's Premium Fashion</title><style>
 body {
-  background:black;
-  color:white;
-  font-family:Arial;
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #0f0f0f;
+  color: white;
 }
-.product {
-  margin:20px;
+
+header {
+  text-align: center;
+  padding: 20px;
+  font-size: 30px;
+  background: black;
+  color: gold;
 }
-</style>
-</head>
 
-<body>
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 20px;
+}
 
-<h1>Khan's Prince</h1>
+.card {
+  background: #1c1c1c;
+  margin: 15px;
+  padding: 15px;
+  border-radius: 12px;
+  width: 250px;
+  text-align: center;
+  transition: 0.3s;
+}
 
-<div class="product">
-  <img src="shirt.jpg" width="150">
-  <h3>Shirt</h3>
-  <p>₹999</p>
-</div>
+.card:hover {
+  transform: scale(1.05);
+}
 
-</body>
+.card img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+h3 {
+  margin: 10px 0;
+}
+
+.price {
+  color: gold;
+  font-size: 18px;
+}
+
+button {
+  background: gold;
+  border: none;
+  padding: 10px;
+  margin-top: 10px;
+  cursor: pointer;
+  font-weight: bold;
+  border-radius: 5px;
+}
+
+button:hover {
+  background: orange;
+}
+
+footer {
+  text-align: center;
+  padding: 15px;
+  background: black;
+  margin-top: 20px;
+}
+</style></head><body><header>Khan's Premium Fashion</header><div class="container"><div class="card">
+<img src="https://images.unsplash.com/photo-1521572163474-6864f9cf17ab">
+<h3>Black Premium Shirt</h3>
+<p class="price">₹1999</p>
+<button>Buy Now</button>
+</div><div class="card">
+<img src="https://images.unsplash.com/photo-1521572163474-6864f9cf17ab">
+<h3>Slim Fit Pants</h3>
+<p class="price">₹2499</p>
+<button>Buy Now</button>
+</div><div class="card">
+<img src="https://images.unsplash.com/photo-1521572163474-6864f9cf17ab">
+<h3>Luxury Watch</h3>
+<p class="price">₹4999</p>
+<button>Buy Now</button>
+</div></div><footer>© 2026 Khan's Fashion</footer></body>
 </html>
+<img src="https://images.unsplash.com/photo-1521572163474-6864f9cf17ab">
